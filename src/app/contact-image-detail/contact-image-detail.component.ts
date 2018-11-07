@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactImageDetailComponent implements OnInit {
 
-  avatar;
+  avatar: any = {};
   constructor() { }
 
   ngOnInit() {
